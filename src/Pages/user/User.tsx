@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import"./user.scss";
 import { Single } from '../../Component/Single/Single';
 import { singleUser } from '../../data';

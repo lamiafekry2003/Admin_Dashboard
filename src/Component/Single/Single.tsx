@@ -1,11 +1,10 @@
-import React from "react";
+
 import "./single.scss";
 import {
   LineChart,
   Line,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,

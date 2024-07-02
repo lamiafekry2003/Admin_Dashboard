@@ -1,8 +1,8 @@
-import React from 'react'
+
 import "./dataTable.scss"
 import { Link } from 'react-router-dom'
 import { GridColDef ,DataGrid , GridToolbar } from '@mui/x-data-grid'
-import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQueryClient} from '@tanstack/react-query'
 type Props={
     columns:GridColDef[],
     rows:object[],

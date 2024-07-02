@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import "./user.scss"
 import { DataTable } from '../../Component/dataTable/DataTable'
-import Box from '@mui/material/Box';
-import { DataGrid, GridColDef, GridToolbar } from '@mui/x-data-grid';
-import { userRows } from '../../data';
+
+import { GridColDef } from '@mui/x-data-grid';
+// import { userRows } from '../../data';
 import { Add } from '../../Component/add/Add';
 import { useQuery } from '@tanstack/react-query';
 
@@ -50,14 +50,14 @@ const columns: GridColDef[] = [
         width: 100,
         type: "boolean",
       },
-    {
-      field: 'fullName',
-      headerName: 'Full name',
-      description: 'This column has a value getter and is not sortable.',
-      sortable: false,
-      width: 110,
-      valueGetter: (value, row) => `${row.firstName || ''} ${row.lastName || ''}`,
-    },
+    // {
+    //   field: 'fullName',
+    //   headerName: 'Full name',
+    //   description: 'This column has a value getter and is not sortable.',
+    //   sortable: false,
+    //   width: 110,
+    //   valueGetter: (value, row) => `${row.firstName || ''} ${row.lastName || ''}`,
+    // },
   ];
   
 //   const rows = [

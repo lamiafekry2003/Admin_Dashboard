@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {topDealUsers} from '../../data';
 import "./TapBox.scss"
 export const TopBox = () => {

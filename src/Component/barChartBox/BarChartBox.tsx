@@ -1,4 +1,4 @@
-import React, { PureComponent }  from 'react'
+
 import "./barChartBox.scss"
 import { BarChart, Bar, ResponsiveContainer, Tooltip } from 'recharts';
 type Props = {
